@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50B750C22DC94B8007A3BE5 /* MDConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A50B750B22DC94B8007A3BE5 /* MDConfig.plist */; };
+		A50B751622DC94B8007A3BE5 /* libjdt.jmu.edu.cnDylib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A50B751522DC94B8007A3BE5 /* libjdt.jmu.edu.cnDylib.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		A50B751B22DC94B8007A3BE5 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50B751A22DC94B8007A3BE5 /* JavaScriptCore.framework */; };
+		A50B751D22DC94B8007A3BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50B751C22DC94B8007A3BE5 /* Foundation.framework */; };
+		A50B751F22DC94B8007A3BE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A50B751E22DC94B8007A3BE5 /* UIKit.framework */; };
+		A50B752422DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.mm in Sources */ = {isa = PBXBuildFile; fileRef = A50B752322DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.mm */; };
+		A50B752722DC94B8007A3BE5 /* MDConfigManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B752622DC94B8007A3BE5 /* MDConfigManager.h */; };
+		A50B752922DC94B8007A3BE5 /* MDConfigManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B752822DC94B8007A3BE5 /* MDConfigManager.m */; };
+		A50B752B22DC94B8007A3BE5 /* MDCycriptManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B752A22DC94B8007A3BE5 /* MDCycriptManager.h */; };
+		A50B752D22DC94B8007A3BE5 /* MDCycriptManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B752C22DC94B8007A3BE5 /* MDCycriptManager.m */; };
+		A50B752F22DC94B8007A3BE5 /* MDMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B752E22DC94B8007A3BE5 /* MDMethodTrace.h */; };
+		A50B753122DC94B8007A3BE5 /* MDMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B753022DC94B8007A3BE5 /* MDMethodTrace.m */; };
+		A50B753422DC94B8007A3BE5 /* a1a2-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753322DC94B8007A3BE5 /* a1a2-selectortramps-arm.s */; };
+		A50B753622DC94B8007A3BE5 /* a1a2-selectortramps-arm64.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753522DC94B8007A3BE5 /* a1a2-selectortramps-arm64.s */; };
+		A50B753822DC94B8007A3BE5 /* a1a2-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753722DC94B8007A3BE5 /* a1a2-selectortramps-i386.s */; };
+		A50B753A22DC94B8007A3BE5 /* a1a2-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753922DC94B8007A3BE5 /* a1a2-selectortramps-x86_64.s */; };
+		A50B753C22DC94B8007A3BE5 /* a2a3-selectortramps-arm.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753B22DC94B8007A3BE5 /* a2a3-selectortramps-arm.s */; };
+		A50B753E22DC94B8007A3BE5 /* a2a3-selectortramps-i386.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753D22DC94B8007A3BE5 /* a2a3-selectortramps-i386.s */; };
+		A50B754022DC94B8007A3BE5 /* a2a3-selectortramps-x86_64.s in Sources */ = {isa = PBXBuildFile; fileRef = A50B753F22DC94B8007A3BE5 /* a2a3-selectortramps-x86_64.s */; };
+		A50B754222DC94B8007A3BE5 /* OCMethodTrace.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B754122DC94B8007A3BE5 /* OCMethodTrace.h */; };
+		A50B754422DC94B8007A3BE5 /* OCMethodTrace.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B754322DC94B8007A3BE5 /* OCMethodTrace.m */; };
+		A50B754622DC94B8007A3BE5 /* OCSelectorTrampolines.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B754522DC94B8007A3BE5 /* OCSelectorTrampolines.h */; };
+		A50B754822DC94B8007A3BE5 /* OCSelectorTrampolines.mm in Sources */ = {isa = PBXBuildFile; fileRef = A50B754722DC94B8007A3BE5 /* OCSelectorTrampolines.mm */; };
+		A50B754C22DC94B8007A3BE5 /* LLDBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B754B22DC94B8007A3BE5 /* LLDBTools.h */; };
+		A50B754E22DC94B8007A3BE5 /* LLDBTools.mm in Sources */ = {isa = PBXBuildFile; fileRef = A50B754D22DC94B8007A3BE5 /* LLDBTools.mm */; };
+		A50B755322DC94B8007A3BE5 /* AntiAntiDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B755222DC94B8007A3BE5 /* AntiAntiDebug.m */; };
+		A50B755622DC94B8007A3BE5 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = A50B755522DC94B8007A3BE5 /* fishhook.c */; };
+		A50B755822DC94B8007A3BE5 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B755722DC94B8007A3BE5 /* fishhook.h */; };
+		A50B755A22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */; };
+		A50B755C22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50B751722DC94B8007A3BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50B74F922DC94B8007A3BE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50B751422DC94B8007A3BE5;
+			remoteInfo = jdt.jmu.edu.cnDylib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50B750122DC94B8007A3BE5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A50B751622DC94B8007A3BE5 /* libjdt.jmu.edu.cnDylib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A50B750422DC94B8007A3BE5 /* jdt.jmu.edu.cn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jdt.jmu.edu.cn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B750722DC94B8007A3BE5 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		A50B750922DC94B8007A3BE5 /* quick-resign.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = "quick-resign.sh"; path = "Scripts/quick-resign.sh"; sourceTree = "<group>"; };
+		A50B750B22DC94B8007A3BE5 /* MDConfig.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = MDConfig.plist; path = Config/MDConfig.plist; sourceTree = "<group>"; };
+		A50B750E22DC94B8007A3BE5 /* put ipa or app here */ = {isa = PBXFileReference; lastKnownFileType = text; name = "put ipa or app here"; path = "TargetApp/put ipa or app here"; sourceTree = "<group>"; };
+		A50B750F22DC94B8007A3BE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50B751522DC94B8007A3BE5 /* libjdt.jmu.edu.cnDylib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libjdt.jmu.edu.cnDylib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B751A22DC94B8007A3BE5 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		A50B751C22DC94B8007A3BE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A50B751E22DC94B8007A3BE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A50B752222DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.xm */ = {isa = PBXFileReference; lastKnownFileType = text; name = jdt_jmu_edu_cnDylib.xm; path = Logos/jdt_jmu_edu_cnDylib.xm; sourceTree = "<group>"; };
+		A50B752322DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = jdt_jmu_edu_cnDylib.mm; path = Logos/jdt_jmu_edu_cnDylib.mm; sourceTree = "<group>"; };
+		A50B752622DC94B8007A3BE5 /* MDConfigManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDConfigManager.h; path = Config/MDConfigManager.h; sourceTree = "<group>"; };
+		A50B752822DC94B8007A3BE5 /* MDConfigManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDConfigManager.m; path = Config/MDConfigManager.m; sourceTree = "<group>"; };
+		A50B752A22DC94B8007A3BE5 /* MDCycriptManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDCycriptManager.h; path = Config/MDCycriptManager.h; sourceTree = "<group>"; };
+		A50B752C22DC94B8007A3BE5 /* MDCycriptManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDCycriptManager.m; path = Config/MDCycriptManager.m; sourceTree = "<group>"; };
+		A50B752E22DC94B8007A3BE5 /* MDMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MDMethodTrace.h; path = Config/MDMethodTrace.h; sourceTree = "<group>"; };
+		A50B753022DC94B8007A3BE5 /* MDMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MDMethodTrace.m; path = Config/MDMethodTrace.m; sourceTree = "<group>"; };
+		A50B753322DC94B8007A3BE5 /* a1a2-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-arm.s"; path = "Trace/a1a2-selectortramps-arm.s"; sourceTree = "<group>"; };
+		A50B753522DC94B8007A3BE5 /* a1a2-selectortramps-arm64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-arm64.s"; path = "Trace/a1a2-selectortramps-arm64.s"; sourceTree = "<group>"; };
+		A50B753722DC94B8007A3BE5 /* a1a2-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-i386.s"; path = "Trace/a1a2-selectortramps-i386.s"; sourceTree = "<group>"; };
+		A50B753922DC94B8007A3BE5 /* a1a2-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a1a2-selectortramps-x86_64.s"; path = "Trace/a1a2-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		A50B753B22DC94B8007A3BE5 /* a2a3-selectortramps-arm.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a2a3-selectortramps-arm.s"; path = "Trace/a2a3-selectortramps-arm.s"; sourceTree = "<group>"; };
+		A50B753D22DC94B8007A3BE5 /* a2a3-selectortramps-i386.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a2a3-selectortramps-i386.s"; path = "Trace/a2a3-selectortramps-i386.s"; sourceTree = "<group>"; };
+		A50B753F22DC94B8007A3BE5 /* a2a3-selectortramps-x86_64.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "a2a3-selectortramps-x86_64.s"; path = "Trace/a2a3-selectortramps-x86_64.s"; sourceTree = "<group>"; };
+		A50B754122DC94B8007A3BE5 /* OCMethodTrace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCMethodTrace.h; path = Trace/OCMethodTrace.h; sourceTree = "<group>"; };
+		A50B754322DC94B8007A3BE5 /* OCMethodTrace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = OCMethodTrace.m; path = Trace/OCMethodTrace.m; sourceTree = "<group>"; };
+		A50B754522DC94B8007A3BE5 /* OCSelectorTrampolines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OCSelectorTrampolines.h; path = Trace/OCSelectorTrampolines.h; sourceTree = "<group>"; };
+		A50B754722DC94B8007A3BE5 /* OCSelectorTrampolines.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = OCSelectorTrampolines.mm; path = Trace/OCSelectorTrampolines.mm; sourceTree = "<group>"; };
+		A50B754922DC94B8007A3BE5 /* selectortramps.mac */ = {isa = PBXFileReference; lastKnownFileType = text; name = selectortramps.mac; path = Trace/selectortramps.mac; sourceTree = "<group>"; };
+		A50B754B22DC94B8007A3BE5 /* LLDBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LLDBTools.h; path = Tools/LLDBTools.h; sourceTree = "<group>"; };
+		A50B754D22DC94B8007A3BE5 /* LLDBTools.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = LLDBTools.mm; path = Tools/LLDBTools.mm; sourceTree = "<group>"; };
+		A50B755022DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "jdt.jmu.edu.cnDylib-Prefix.pch"; sourceTree = "<group>"; };
+		A50B755222DC94B8007A3BE5 /* AntiAntiDebug.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AntiAntiDebug.m; path = AntiAntiDebug/AntiAntiDebug.m; sourceTree = "<group>"; };
+		A50B755522DC94B8007A3BE5 /* fishhook.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fishhook.c; path = fishhook/fishhook.c; sourceTree = "<group>"; };
+		A50B755722DC94B8007A3BE5 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
+		A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jdt_jmu_edu_cnDylib.h; sourceTree = "<group>"; };
+		A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jdt_jmu_edu_cnDylib.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50B74FE22DC94B8007A3BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B751222DC94B8007A3BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B751B22DC94B8007A3BE5 /* JavaScriptCore.framework in Frameworks */,
+				A50B751F22DC94B8007A3BE5 /* UIKit.framework in Frameworks */,
+				A50B751D22DC94B8007A3BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50B74F822DC94B8007A3BE5 = {
+			isa = PBXGroup;
+			children = (
+				A50B750622DC94B8007A3BE5 /* jdt.jmu.edu.cn */,
+				A50B752022DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */,
+				A50B751922DC94B8007A3BE5 /* Frameworks */,
+				A50B750522DC94B8007A3BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50B750522DC94B8007A3BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50B750422DC94B8007A3BE5 /* jdt.jmu.edu.cn.app */,
+				A50B751522DC94B8007A3BE5 /* libjdt.jmu.edu.cnDylib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50B750622DC94B8007A3BE5 /* jdt.jmu.edu.cn */ = {
+			isa = PBXGroup;
+			children = (
+				A50B750722DC94B8007A3BE5 /* icon.png */,
+				A50B750F22DC94B8007A3BE5 /* Info.plist */,
+				A50B750822DC94B8007A3BE5 /* Scripts */,
+				A50B750A22DC94B8007A3BE5 /* Config */,
+				A50B750D22DC94B8007A3BE5 /* TargetApp */,
+			);
+			path = jdt.jmu.edu.cn;
+			sourceTree = "<group>";
+		};
+		A50B750822DC94B8007A3BE5 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A50B750922DC94B8007A3BE5 /* quick-resign.sh */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		A50B750A22DC94B8007A3BE5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A50B750B22DC94B8007A3BE5 /* MDConfig.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		A50B750D22DC94B8007A3BE5 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				A50B750E22DC94B8007A3BE5 /* put ipa or app here */,
+			);
+			name = TargetApp;
+			sourceTree = "<group>";
+		};
+		A50B751922DC94B8007A3BE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A50B751A22DC94B8007A3BE5 /* JavaScriptCore.framework */,
+				A50B751C22DC94B8007A3BE5 /* Foundation.framework */,
+				A50B751E22DC94B8007A3BE5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50B752022DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */ = {
+			isa = PBXGroup;
+			children = (
+				A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */,
+				A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */,
+				A50B752122DC94B8007A3BE5 /* Logos */,
+				A50B752522DC94B8007A3BE5 /* Config */,
+				A50B753222DC94B8007A3BE5 /* Trace */,
+				A50B754A22DC94B8007A3BE5 /* Tools */,
+				A50B755122DC94B8007A3BE5 /* AntiAntiDebug */,
+				A50B755422DC94B8007A3BE5 /* fishhook */,
+				A50B754F22DC94B8007A3BE5 /* Supporting Files */,
+			);
+			path = jdt.jmu.edu.cnDylib;
+			sourceTree = "<group>";
+		};
+		A50B752122DC94B8007A3BE5 /* Logos */ = {
+			isa = PBXGroup;
+			children = (
+				A50B752222DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.xm */,
+				A50B752322DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.mm */,
+			);
+			name = Logos;
+			sourceTree = "<group>";
+		};
+		A50B752522DC94B8007A3BE5 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				A50B752622DC94B8007A3BE5 /* MDConfigManager.h */,
+				A50B752822DC94B8007A3BE5 /* MDConfigManager.m */,
+				A50B752A22DC94B8007A3BE5 /* MDCycriptManager.h */,
+				A50B752C22DC94B8007A3BE5 /* MDCycriptManager.m */,
+				A50B752E22DC94B8007A3BE5 /* MDMethodTrace.h */,
+				A50B753022DC94B8007A3BE5 /* MDMethodTrace.m */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		A50B753222DC94B8007A3BE5 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				A50B753322DC94B8007A3BE5 /* a1a2-selectortramps-arm.s */,
+				A50B753522DC94B8007A3BE5 /* a1a2-selectortramps-arm64.s */,
+				A50B753722DC94B8007A3BE5 /* a1a2-selectortramps-i386.s */,
+				A50B753922DC94B8007A3BE5 /* a1a2-selectortramps-x86_64.s */,
+				A50B753B22DC94B8007A3BE5 /* a2a3-selectortramps-arm.s */,
+				A50B753D22DC94B8007A3BE5 /* a2a3-selectortramps-i386.s */,
+				A50B753F22DC94B8007A3BE5 /* a2a3-selectortramps-x86_64.s */,
+				A50B754122DC94B8007A3BE5 /* OCMethodTrace.h */,
+				A50B754322DC94B8007A3BE5 /* OCMethodTrace.m */,
+				A50B754522DC94B8007A3BE5 /* OCSelectorTrampolines.h */,
+				A50B754722DC94B8007A3BE5 /* OCSelectorTrampolines.mm */,
+				A50B754922DC94B8007A3BE5 /* selectortramps.mac */,
+			);
+			name = Trace;
+			sourceTree = "<group>";
+		};
+		A50B754A22DC94B8007A3BE5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				A50B754B22DC94B8007A3BE5 /* LLDBTools.h */,
+				A50B754D22DC94B8007A3BE5 /* LLDBTools.mm */,
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		A50B754F22DC94B8007A3BE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A50B755022DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A50B755122DC94B8007A3BE5 /* AntiAntiDebug */ = {
+			isa = PBXGroup;
+			children = (
+				A50B755222DC94B8007A3BE5 /* AntiAntiDebug.m */,
+			);
+			name = AntiAntiDebug;
+			sourceTree = "<group>";
+		};
+		A50B755422DC94B8007A3BE5 /* fishhook */ = {
+			isa = PBXGroup;
+			children = (
+				A50B755522DC94B8007A3BE5 /* fishhook.c */,
+				A50B755722DC94B8007A3BE5 /* fishhook.h */,
+			);
+			name = fishhook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A50B751322DC94B8007A3BE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B752B22DC94B8007A3BE5 /* MDCycriptManager.h in Headers */,
+				A50B755A22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h in Headers */,
+				A50B752F22DC94B8007A3BE5 /* MDMethodTrace.h in Headers */,
+				A50B755822DC94B8007A3BE5 /* fishhook.h in Headers */,
+				A50B754C22DC94B8007A3BE5 /* LLDBTools.h in Headers */,
+				A50B752722DC94B8007A3BE5 /* MDConfigManager.h in Headers */,
+				A50B754622DC94B8007A3BE5 /* OCSelectorTrampolines.h in Headers */,
+				A50B754222DC94B8007A3BE5 /* OCMethodTrace.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A50B750322DC94B8007A3BE5 /* jdt.jmu.edu.cn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B756222DC94B8007A3BE5 /* Build configuration list for PBXNativeTarget "jdt.jmu.edu.cn" */;
+			buildPhases = (
+				A50B74FD22DC94B8007A3BE5 /* Sources */,
+				A50B74FE22DC94B8007A3BE5 /* Frameworks */,
+				A50B74FF22DC94B8007A3BE5 /* ShellScript */,
+				A50B750022DC94B8007A3BE5 /* Resources */,
+				A50B750122DC94B8007A3BE5 /* CopyFiles */,
+				A50B750222DC94B8007A3BE5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50B751822DC94B8007A3BE5 /* PBXTargetDependency */,
+			);
+			name = jdt.jmu.edu.cn;
+			productName = jdt.jmu.edu.cn;
+			productReference = A50B750422DC94B8007A3BE5 /* jdt.jmu.edu.cn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50B751422DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B755F22DC94B8007A3BE5 /* Build configuration list for PBXNativeTarget "jdt.jmu.edu.cnDylib" */;
+			buildPhases = (
+				A50B751022DC94B8007A3BE5 /* ShellScript */,
+				A50B751122DC94B8007A3BE5 /* Sources */,
+				A50B751222DC94B8007A3BE5 /* Frameworks */,
+				A50B751322DC94B8007A3BE5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jdt.jmu.edu.cnDylib;
+			productName = jdt.jmu.edu.cnDylib;
+			productReference = A50B751522DC94B8007A3BE5 /* libjdt.jmu.edu.cnDylib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50B74F922DC94B8007A3BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "徐崎峰";
+				TargetAttributes = {
+					A50B750322DC94B8007A3BE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A50B751422DC94B8007A3BE5 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A50B74FC22DC94B8007A3BE5 /* Build configuration list for PBXProject "jdt.jmu.edu.cn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A50B74F822DC94B8007A3BE5;
+			productRefGroup = A50B750522DC94B8007A3BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50B750322DC94B8007A3BE5 /* jdt.jmu.edu.cn */,
+				A50B751422DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50B750022DC94B8007A3BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B750C22DC94B8007A3BE5 /* MDConfig.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A50B74FF22DC94B8007A3BE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /opt/MonkeyDev/Tools/pack.sh;
+		};
+		A50B750222DC94B8007A3BE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/Tools/pack.sh codesign";
+		};
+		A50B751022DC94B8007A3BE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/MonkeyDev/bin/md --xcbp-logos";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50B74FD22DC94B8007A3BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B751122DC94B8007A3BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B752D22DC94B8007A3BE5 /* MDCycriptManager.m in Sources */,
+				A50B753622DC94B8007A3BE5 /* a1a2-selectortramps-arm64.s in Sources */,
+				A50B753422DC94B8007A3BE5 /* a1a2-selectortramps-arm.s in Sources */,
+				A50B753A22DC94B8007A3BE5 /* a1a2-selectortramps-x86_64.s in Sources */,
+				A50B754422DC94B8007A3BE5 /* OCMethodTrace.m in Sources */,
+				A50B752922DC94B8007A3BE5 /* MDConfigManager.m in Sources */,
+				A50B755622DC94B8007A3BE5 /* fishhook.c in Sources */,
+				A50B755322DC94B8007A3BE5 /* AntiAntiDebug.m in Sources */,
+				A50B754822DC94B8007A3BE5 /* OCSelectorTrampolines.mm in Sources */,
+				A50B753822DC94B8007A3BE5 /* a1a2-selectortramps-i386.s in Sources */,
+				A50B753E22DC94B8007A3BE5 /* a2a3-selectortramps-i386.s in Sources */,
+				A50B753C22DC94B8007A3BE5 /* a2a3-selectortramps-arm.s in Sources */,
+				A50B752422DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.mm in Sources */,
+				A50B754E22DC94B8007A3BE5 /* LLDBTools.mm in Sources */,
+				A50B755C22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m in Sources */,
+				A50B754022DC94B8007A3BE5 /* a2a3-selectortramps-x86_64.s in Sources */,
+				A50B753122DC94B8007A3BE5 /* MDMethodTrace.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50B751822DC94B8007A3BE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50B751422DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */;
+			targetProxy = A50B751722DC94B8007A3BE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A50B755D22DC94B8007A3BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A50B755E22DC94B8007A3BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50B756022DC94B8007A3BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2ZUM28FMU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jdt.jmu.edu.cnDylib/jdt.jmu.edu.cnDylib-Prefix.pch";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libjdt.jmu.edu.cnDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"jdt.jmu.edu.cnDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+					"-lcycript",
+					"-framework",
+					RevealServer,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		A50B756122DC94B8007A3BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = L2ZUM28FMU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks/**",
+					"$(MonkeyDevPath)/Librarys/**",
+					"$(MonkeyDevTheosPath)/vendor/lib",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "jdt.jmu.edu.cnDylib/jdt.jmu.edu.cnDylib-Prefix.pch";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/include",
+					"$(MonkeyDevTheosPath)/vendor/include/**",
+				);
+				INSTALL_PATH = "@executable_path/Frameworks/libjdt.jmu.edu.cnDylib.dylib";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(MonkeyDevPath)/Frameworks",
+					"$(MonkeyDevTheosPath)/vendor/lib/**",
+				);
+				MonkeyDevPath = /opt/MonkeyDev;
+				MonkeyDevTheosPath = /opt/theos;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-DTHEOS_INSTANCE_NAME=\"\\\"jdt.jmu.edu.cnDylib\\\"\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-weak_library",
+					"/usr/lib/libc++.dylib",
+					"-weak_library",
+					"/usr/lib/libstdc++.dylib",
+					"-weak_library",
+					"$(MonkeyDevPath)/Frameworks/libsubstrate.dylib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A50B756322DC94B8007A3BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2ZUM28FMU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = jdt.jmu.edu.cn/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = "evsio0n.jdt-jmu-edu-cn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50B756422DC94B8007A3BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L2ZUM28FMU;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = jdt.jmu.edu.cn/Info.plist;
+				MONKEYDEV_ADD_SUBSTRATE = YES;
+				MONKEYDEV_CLASS_DUMP = NO;
+				MONKEYDEV_DEFAULT_BUNDLEID = NO;
+				MONKEYDEV_INSERT_DYLIB = YES;
+				MONKEYDEV_RESTORE_SYMBOL = NO;
+				MONKEYDEV_TARGET_APP = Optional;
+				PODS_CONFIGURATION_BUILD_DIR = "$BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				PODS_ROOT = "${SRCROOT}/Pods";
+				PRODUCT_BUNDLE_IDENTIFIER = "evsio0n.jdt-jmu-edu-cn";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50B74FC22DC94B8007A3BE5 /* Build configuration list for PBXProject "jdt.jmu.edu.cn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B755D22DC94B8007A3BE5 /* Debug */,
+				A50B755E22DC94B8007A3BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B755F22DC94B8007A3BE5 /* Build configuration list for PBXNativeTarget "jdt.jmu.edu.cnDylib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B756022DC94B8007A3BE5 /* Debug */,
+				A50B756122DC94B8007A3BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B756222DC94B8007A3BE5 /* Build configuration list for PBXNativeTarget "jdt.jmu.edu.cn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B756322DC94B8007A3BE5 /* Debug */,
+				A50B756422DC94B8007A3BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50B74F922DC94B8007A3BE5 /* Project object */;
+}
