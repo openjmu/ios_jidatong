@@ -1,4 +1,4 @@
-##iOS Jidatong Build
+## iOS Jidatong Build
 * Using cycript script to rebuild a `none-sign Jidatong ipa`
 * Using monkey dev to rebuild Jidatong
 * Description to rebuild:
