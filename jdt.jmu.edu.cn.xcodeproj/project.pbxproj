@@ -37,6 +37,7 @@
 		A50B755822DC94B8007A3BE5 /* fishhook.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B755722DC94B8007A3BE5 /* fishhook.h */; };
 		A50B755A22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */; };
 		A50B755C22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */; };
+		A50B756822DC956F007A3BE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B756722DC956F007A3BE5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		A50B755722DC94B8007A3BE5 /* fishhook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = fishhook.h; path = fishhook/fishhook.h; sourceTree = "<group>"; };
 		A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jdt_jmu_edu_cnDylib.h; sourceTree = "<group>"; };
 		A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jdt_jmu_edu_cnDylib.m; sourceTree = "<group>"; };
+		A50B756722DC956F007A3BE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 		A50B74F822DC94B8007A3BE5 = {
 			isa = PBXGroup;
 			children = (
+				A50B756722DC956F007A3BE5 /* Default-568h@2x.png */,
 				A50B750622DC94B8007A3BE5 /* jdt.jmu.edu.cn */,
 				A50B752022DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */,
 				A50B751922DC94B8007A3BE5 /* Frameworks */,
@@ -381,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A50B750C22DC94B8007A3BE5 /* MDConfig.plist in Resources */,
+				A50B756822DC956F007A3BE5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
