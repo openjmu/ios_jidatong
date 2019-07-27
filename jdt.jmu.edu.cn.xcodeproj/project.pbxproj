@@ -38,6 +38,7 @@
 		A50B755A22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h in Headers */ = {isa = PBXBuildFile; fileRef = A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */; };
 		A50B755C22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m in Sources */ = {isa = PBXBuildFile; fileRef = A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */; };
 		A50B756822DC956F007A3BE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A50B756722DC956F007A3BE5 /* Default-568h@2x.png */; };
+		A50CE58322EC6C2000B9F845 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A50CE58222EC6C2000B9F845 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,8 @@
 		A50B755922DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jdt_jmu_edu_cnDylib.h; sourceTree = "<group>"; };
 		A50B755B22DC94B8007A3BE5 /* jdt_jmu_edu_cnDylib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jdt_jmu_edu_cnDylib.m; sourceTree = "<group>"; };
 		A50B756722DC956F007A3BE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A50CE58222EC6C2000B9F845 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A5FCCEB222EC66D30089D580 /* Jidatong.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; name = Jidatong.ipa; path = TargetApp/Jidatong.ipa; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,7 @@
 		A50B74F822DC94B8007A3BE5 = {
 			isa = PBXGroup;
 			children = (
+				A50CE58222EC6C2000B9F845 /* README.md */,
 				A50B756722DC956F007A3BE5 /* Default-568h@2x.png */,
 				A50B750622DC94B8007A3BE5 /* jdt.jmu.edu.cn */,
 				A50B752022DC94B8007A3BE5 /* jdt.jmu.edu.cnDylib */,
@@ -177,6 +181,7 @@
 		A50B750D22DC94B8007A3BE5 /* TargetApp */ = {
 			isa = PBXGroup;
 			children = (
+				A5FCCEB222EC66D30089D580 /* Jidatong.ipa */,
 				A50B750E22DC94B8007A3BE5 /* put ipa or app here */,
 			);
 			name = TargetApp;
@@ -383,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A50CE58322EC6C2000B9F845 /* README.md in Resources */,
 				A50B750C22DC94B8007A3BE5 /* MDConfig.plist in Resources */,
 				A50B756822DC956F007A3BE5 /* Default-568h@2x.png in Resources */,
 			);
